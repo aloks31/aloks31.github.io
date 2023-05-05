@@ -77,6 +77,7 @@
               
                 <a
                 onclick="window.open('https://drive.google.com/file/d/1J79f-8ipQ356c5GNFfR97zW4lHiGXUvp/view?usp=sharing','_blank')"
+                id="resume-button-1"
                 class="resume-button"
                 href="./assets/Alok-Shekhawat-Resume.pdf"
                 download="Alok-Shekhawat-Resume"
@@ -160,10 +161,11 @@
         <div class="row about-wrapper">
           <div class="about-wrapper__image">
             <img
+            class="home-img"
               class="img-fluid"
               src="./assets/profile.jpg"
               alt="Profile Image"
-              class="home-img"
+              
 
             />
           </div>
@@ -182,7 +184,8 @@
               I want to implement all the knowledge I have  gain about Web Developement for the success of the organisation and mine.
             </p>
             <span class="about-wrapper__cta">
-              <a download href="./assets/Alok-Shekhawat-Resume.pdf" download class="cta-btn cta-btn--resume" class="nav-link resume">Download Resume</a> 
+               
+                <a download href="./assets/Alok-Shekhawat-Resume.pdf" download  id="resume-button-2" class="cta-btn cta-btn--resume" class="nav-link resume">Download Resume</a> 
                &nbsp  &nbsp  &nbsp  &nbsp 
                <a href="./assets/Alok-Shekhawat-Resume.pdf" target="_blank" class="nav-link resume"
                class="cta-btn cta-btn--resume">View Resume</a>
@@ -202,39 +205,39 @@
         <div class="about-wrapper__info" >
        <div id="tachstack" class="row about-wrapper">
    
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/java.png" alt="java" class="skills-card-img">
             <h3  class="skills-card-name">JAVA</h3>
           </div>
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/spring.png" alt="java" class="skills-card-img">
           <h3  class="skills-card-name"> Spring Boot</h3>
           </div>
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/hibernate.png" alt="java" class="skills-card-img">
             <h3  class="skills-card-name">HIBERNATE</h3>
           </div>
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/mysql.png" alt="java" class="skills-card-img">
           <h3  class="skills-card-name">SQL</h3>
           </div>
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/jdbc.png" alt="java" class="skills-card-img">
           <h3  class="skills-card-name"> JDBC</h3>
           </div>
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/api.png" alt="" class="skills-card-img">
             <h3  class="skills-card-name">API</h3>
           </div>
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/javascript.png" alt="java" class="skills-card-img">
           <h3  class="skills-card-name"> JavaScript</h3>
           </div>
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/html.png" alt="java" class="skills-card-img">
           <h3  class="skills-card-name"> HTML</h3>
           </div>
-          <div class="stack" class="skills-card">
+          <div class="skills-card" class="stack" >
             <img src="./assets/css.png" alt="java" class="skills-card-img">
           <h3  class="skills-card-name"> CSS</h3>
           </div>
@@ -253,33 +256,33 @@
           <div id="skill">
    
            
-            <div class="stack" class="skills-card">
+            <div class="skills-card" class="stack" >
               <img src="./assets/dsa.png" alt="teamwork" class="skills-card-img">
               <h3  class="skills-card-name">DSA</h3>
             </div>
-            <div class="stack" class="skills-card">
+            <div class="skills-card" class="stack" >
               <img src="./assets/background.png" alt="critical" class="skills-card-img">
               <h3  class="skills-card-name">
                 Front End
               </h3>
             </div>
-            <div class="stack" class="skills-card">
+            <div class="skills-card" class="stack" >
               <img src="./assets/backend.png" alt="listning" class="skills-card-img">
               <h3  class="skills-card-name">Back End</h3>
             </div>
-            <div class="stack" class="skills-card">
+            <div class="skills-card" class="stack" >
               <img src="./assets/adabtability.webp" alt="time" class="skills-card-img">
               <h3  class="skills-card-name">
                 ADAPTABILITY
               </h3>
             </div>
-            <div class="stack" class="skills-card">
+            <div class="skills-card" class="stack" >
               <img src="./assets/teammang.png" alt="teammang" class="skills-card-img">
               <h3  class="skills-card-name">
                 Team Management
               </h3>
             </div>
-            <div class="stack" class="skills-card">
+            <div class="skills-card" class="stack" >
               <img src="./assets/remote.jpg" alt="remote" class="skills-card-img">
               <h3  class="skills-card-name">Remote Work</h3>
             </div>
@@ -300,9 +303,60 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
+
+
+          <article class="row">
+            <div class="project-card" class="project-wrapper__text" >
+              <h3 class="project-wrapper__text-title" class="project-title">Netmeds.com-Clone</h3>
+              <p class="project-wrapper__text-info">
+                
+                <!-- <strong>Position:</strong> Team Leader <br> -->
+                <strong>Type: </strong> Group project <br>
+                <strong>Duration:</strong> 1 Week <br>
+                <strong>Features:</strong>  Sign-in/Sign-up |
+                HomePage (Landing page) |
+                Add to Basket and checkout pages |
+               Category Page |
+               Product Page |
+                 Payment gateway integration  <br>
+                <strong class="project-tech-stack">Tech Stack:</strong> JavaScript | HTML | CSS | LocalStorage <br>
+                <strong class="project-description">Description:</strong> At netmeds.com make a wide range of prescription medicines and other
+                 health products conveniently available all across India.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://netmed-lokesh-alok-ashish-akash-pooja.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  class="project-deployed-link"
+                  >Deploy Link</a
+                >
+                <a class="project-github-link" href="https://github.com/lokeshahire/NetMeds-Clone" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image" >
+              <a href="https://sunny-bubblegum-120988.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/2022-06-19 18_12_47-Greenshot - Copy.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+
+
+
+
           <!-- Each .row is a project -->
           <article class="row">
-            <div class="project-wrapper__text" class="project-card">
+            <div class="project-card" class="project-wrapper__text" >
               <h3 class="project-wrapper__text-title" class="project-title">Netmeds.com-Clone</h3>
               <p class="project-wrapper__text-info">
                 
@@ -350,7 +404,7 @@
 
           <!-- Each .row is a project -->
           <article class="row">
-            <div class="project-wrapper__text" class="project-card">
+            <div class="project-card" class="project-wrapper__text" >
               <h3 class="project-wrapper__text-title" class="project-title">Milaap.com-Clone</h3>
               <p class="project-wrapper__text-info">
                 
@@ -399,7 +453,7 @@
 
           <!-- Each .row is a project -->
           <article class="row">
-            <div class="project-wrapper__text" class="project-card">
+            <div class="project-card" class="project-wrapper__text" >
               <h3 class="project-wrapper__text-title" class="project-title">Crime-Management-System</h3>
               <p class="project-wrapper__text-info">
                 <strong>Type:</strong> Solo Project <br>
@@ -509,13 +563,13 @@
 
 
 
-<p><img align="center"  src="https://github-readme-stats.vercel.app/api/top-langs?username=aloks31&show_icons=true&locale=en&layout=compact" alt="aloks31" /></p>
+<p><img  id="github-top-langs" align="center"  src="https://github-readme-stats.vercel.app/api/top-langs?username=aloks31&show_icons=true&locale=en&layout=compact" alt="aloks31" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aloks31&show_icons=true&locale=en" alt="aloks31" /></p>
+<p>&nbsp;<img id="github-stats-card" align="center" src="https://github-readme-stats.vercel.app/api?username=aloks31&show_icons=true&locale=en" alt="aloks31" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aloks31&" alt="aloks31" /></p>
+<p  ><img id="github-streak-stats" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aloks31&" alt="aloks31" /></p>
 
-<div class="calendar" style="width: 70%;">
+<div class="react-activity-calendar" class="calendar" style="width: 70%;">
 
   Loading the data just for you.
 </div>
